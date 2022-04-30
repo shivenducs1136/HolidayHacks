@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelpU.iml" filepath="$PROJECT_DIR$/.idea/modules/HelpU.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HelpU.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HelpU.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Internship Work.HelpU.iml" filepath="$PROJECT_DIR$/.idea/modules/Internship Work.HelpU.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Internship Work.HelpU.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Internship Work.HelpU.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HolidayHacks.HelpU.iml" filepath="$PROJECT_DIR$/.idea/modules/HolidayHacks.HelpU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HolidayHacks.HelpU.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HolidayHacks.HelpU.app.iml" />
     </modules>
   </component>
 </project>
