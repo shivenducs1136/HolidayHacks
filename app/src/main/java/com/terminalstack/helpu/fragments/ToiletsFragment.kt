@@ -20,5 +20,31 @@ import com.terminalstack.helpu.viewmodel.ToiletsViewModel
 import com.terminalstack.helpu.viewmodel.ToiletsViewModelFactory
 
 class ToiletsFragment : Fragment() {
-    
+
+    lateinit var binding: FragmentToiletsBinding
+    lateinit var viewModel:ToiletsViewModel
+    private val restroAdapter: ToiletsAdapter by lazy{ ToiletsAdapter() }
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        binding = FragmentToiletsBinding.inflate(layoutInflater)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val repository = MainRepository()
+        val viewModelFactory = ToiletsViewModelFactory(repository)
+        viewModel = ViewModelProvider(this,viewModelFactory).get(ToiletsViewModel::class.java)
+        viewModel.getToilets()
+        viewModel.myResponse.observe(viewLifecycleOwner, Observer {
+            restroAdapter.setRestro(it)
+        })
+        binding.toiletsRecyclerView.layoutManager = LinearLayoutManager(requireContext(), RecyclerView.VERTICAL, false)
+        binding.toiletsRecyclerView.adapter = restroAdapter
+
+
+    }
+
 }
