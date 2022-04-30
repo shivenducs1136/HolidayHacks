@@ -33,7 +33,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="@font/poppins"
-        android:text="CopyRight ©2022 Bitwisor. All Rights Reserved"
+        android:text="CopyRight ©2022 Bitwisor. All Rights Reserved!!"
         android:textColor="#070000"
         android:textSize="10sp"
         android:textStyle="bold" />
