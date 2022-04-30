@@ -22,10 +22,11 @@
                 />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Create Help Request"
                 android:textColor="@color/black"
+                android:gravity="center"
                 android:textSize="24sp"
                 android:fontFamily="@font/poppins_bold"
                 app:layout_constraintTop_toTopOf="parent"
@@ -73,7 +74,7 @@
                     android:layout_height="match_parent"
                     android:background="@color/white"
                     android:gravity="top|start"
-                    android:hint="Please provide more details for help."
+                    android:hint="Please provide more details so that we can help you."
                     android:inputType="textMultiLine"
                     android:lines="8"
                     android:maxLines="10"
@@ -87,6 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Submit"
+                android:textSize="18sp"
                 android:id="@+id/sendHelp"
                 android:layout_margin="20dp"
                 app:layout_constraintTop_toBottomOf="@+id/text_field"
