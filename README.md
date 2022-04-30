@@ -14,7 +14,7 @@
 - [ ] So If a person is suffering from Fumbling or is mute person, for those people we have integrated some daily-life action/ expression cards which is really helpful for the people to communicate in public places confidently.
 
 	
-### We understand the urgent need of the hour to help out this section of people and we are committed to cater their needs. This initiative can become a giant leap in helping disabled people and boost their confidence so that they can try to make their lives better. This is right time for everyone of us to move towards towards this initiative.Together WE CAN and WE WILL MAKE A DIFFERENCE.
+### We understand the urgent need of the hour to help out this section of people and we are committed to cater their needs. This initiative can become a giant leap in helping disabled people and boost their confidence so that they can try to make their lives better. This is right time for everyone of us to move towards towards this initiative.Together WE CAN and WE WILL MAKE A DIFFERENCE😊....
 
 ## Video Link
 
