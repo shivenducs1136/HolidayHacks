@@ -18,7 +18,7 @@
 
 ## Video Link
 
-https://youtu.be/3dQHl3G5i7o
+https://www.youtube.com/watch?v=v_oxWmFtufY
 
 ## Github Repository Link (App)
 
