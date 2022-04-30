@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561746495802",
+    "project_id": "helpu-c61b9",
+    "storage_bucket": "helpu-c61b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561746495802:android:68c15fd0a80a8348a8e803",
+        "android_client_info": {
+          "package_name": "com.terminalstack.helpu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561746495802-b0qjui2239m1ra1j6rrun2t007lvtk98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH96ihMwsBGpYQFcEdeZuaM7zv7bWHsaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561746495802-b0qjui2239m1ra1j6rrun2t007lvtk98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

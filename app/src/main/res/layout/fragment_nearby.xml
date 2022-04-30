@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.NearbyFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/expl"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:text="Explore"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/expl"
+            android:scrollbars="none">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/restro"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/mstu"
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/restro" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/mstu"
+                            android:layout_centerHorizontal="true"
+                            android:text="Restraunts"
+                            android:textColor="@color/basic_dark"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/toilets"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/room"
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/wash" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/room"
+                            android:layout_centerHorizontal="true"
+                            android:text="Toilets"
+                            android:textColor="@color/basic_dark"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/malls"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@id/restro"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/mall"
+                        >
+
+                        <ImageView
+                            android:id="@+id/lvv"
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/mall" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/lvv"
+                            android:layout_centerHorizontal="true"
+                            android:text="Malls"
+                            android:textColor="@color/basic_dark"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/library"
+                    android:layout_below="@id/toilets"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/att"
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/library" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/att"
+                            android:layout_centerHorizontal="true"
+                            android:text="Library"
+                            android:textColor="@color/basic_dark"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/hospitals"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@id/malls"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/cmpls"
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/hospital" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cmpls"
+                            android:layout_centerHorizontal="true"
+                            android:text="Hospitals"
+                            android:textColor="@color/basic_dark"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/bank"
+                    android:layout_below="@id/library"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/pymnt"
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/bank" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/pymnt"
+                            android:layout_centerHorizontal="true"
+                            android:text="Banks"
+                            android:textColor="@color/basic_dark"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</FrameLayout>

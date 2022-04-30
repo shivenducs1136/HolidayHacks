@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_otp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:elevation="10dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/registration"
+            app:lottie_speed="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/login_background"
+            android:elevation="15dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="REGISTRATION"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="100dp"
+                    android:layout_height="3dp"
+                    android:background="#0B0000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Kindly fill all the details Carefully"
+                    android:textSize="15sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:hint="Enter the Full Name"
+                        android:background="@drawable/otp_block"
+                        android:paddingStart="15dp"
+                        android:inputType="text"
+
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/age"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:hint="Age"
+
+                        android:layout_height="match_parent"
+                        android:background="@drawable/otp_block"
+                        android:layout_margin="5dp"
+                        android:inputType="number"
+                        android:paddingStart="15dp"
+
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/emailAddress"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:hint="Email-Address"
+
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/otp_block"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="15dp"
+
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/phoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:hint="Phone Number"
+                        android:paddingStart="15dp"
+
+                        android:background="@drawable/otp_block"
+                        android:inputType="number"
+
+                        android:textStyle="bold"/>
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="8dp"
+                        android:paddingStart="15dp"
+                        android:hint="Enter Password"
+                        android:background="@drawable/otp_block"
+                        android:inputType="textPassword"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:hint="Enter your Gender"
+                        android:paddingStart="15dp"
+                        android:background="@drawable/otp_block"
+                        android:inputType="textCapWords"
+                        android:padding="7dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/finalRegistration"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/circular_background"
+                    android:text="Register"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="20sp"
+                    />
+                    <ProgressBar
+                        android:id="@+id/registerProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="invisible"/>
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

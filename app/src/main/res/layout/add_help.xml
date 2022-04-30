@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:layout_constraintTop_toBottomOf="@+id/sendHelp"
+                app:lottie_rawRes="@raw/addhelplottie"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/loadinglottie1"
+                app:lottie_autoPlay="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Help Request"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:fontFamily="@font/poppins_bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="16dp"
+                android:id="@+id/heading_txt"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add title"
+                app:layout_constraintTop_toBottomOf="@+id/heading_txt"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:id="@+id/grievanceTitle"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_height="180dp"
+                android:layout_width="0dp"
+                app:layout_constraintTop_toBottomOf="@+id/textField"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="24dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:elevation="5dp"
+                android:id="@+id/text_field"
+                >
+
+                <EditText
+                    android:id="@+id/grievanceDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="top|start"
+                    android:hint="Please provide more details for help."
+                    android:inputType="textMultiLine"
+                    android:lines="8"
+                    android:maxLines="10"
+                    android:minLines="6"
+                    android:padding="10dp"
+                    android:scrollbars="vertical" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/sendHelp"
+                android:layout_margin="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/text_field"
+
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

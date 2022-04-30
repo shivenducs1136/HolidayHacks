@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelpU.iml" filepath="$PROJECT_DIR$/.idea/modules/HelpU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HelpU.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HelpU.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Internship Work.HelpU.iml" filepath="$PROJECT_DIR$/.idea/modules/Internship Work.HelpU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Internship Work.HelpU.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Internship Work.HelpU.app.iml" />
+    </modules>
+  </component>
+</project>

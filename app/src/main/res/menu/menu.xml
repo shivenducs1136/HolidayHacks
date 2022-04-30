@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_push_notif"
+            android:title="Visit Official Website"
+            android:icon="@drawable/ic_baseline_notifications_active_24"/>
+        <item
+            android:id="@+id/nav_share_app"
+            android:title="Share App"
+            android:icon="@drawable/ic_baseline_share_24"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout Notification"
+            android:icon="@drawable/ic_baseline_login_24"/>
+        <item
+            android:id="@+id/ministry"
+            android:title="Latest Updates"
+            android:icon="@drawable/ic_baseline_health_and_safety_24"/>
+    </group>
+</menu>

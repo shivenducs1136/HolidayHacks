@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/actionsFragment"
+        android:name="com.terminalstack.helpu.fragments.ActionsFragment"
+        android:label="fragment_actions"
+        tools:layout="@layout/fragment_actions" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.terminalstack.helpu.fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_actionsFragment"
+            app:destination="@id/actionsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_helpDeskFragment"
+            app:destination="@id/helpDeskFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_textWriterFragment"
+            app:destination="@id/textWriterFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_wantToHelpFragment"
+            app:destination="@id/wantToHelpFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_ministryOfDisabledWebViewFragment"
+            app:destination="@id/ministryOfDisabledWebViewFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_restroFragment"
+            app:destination="@id/restroFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_hospitalsFragment"
+            app:destination="@id/hospitalsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_mallsFragment"
+            app:destination="@id/mallsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_toiletsFragment"
+            app:destination="@id/toiletsFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_banksFragment"
+            app:destination="@id/banksFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_helperFragment"
+            app:destination="@id/helperFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_wheelchairFragment"
+            app:destination="@id/wheelchairFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_crutchFragment"
+            app:destination="@id/crutchFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment_maps"
+            app:destination="@id/fragment_maps"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment_add_help"
+            app:destination="@id/fragment_add_help"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/helpDeskFragment"
+        android:name="com.terminalstack.helpu.fragments.HelpDeskFragment"
+        android:label="fragment_help_desk"
+        tools:layout="@layout/fragment_help_desk" />
+    <fragment
+        android:id="@+id/nearbyFragment"
+        android:name="com.terminalstack.helpu.fragments.NearbyFragment"
+        android:label="fragment_nearby"
+        tools:layout="@layout/fragment_nearby" />
+    <fragment
+        android:id="@+id/textWriterFragment"
+        android:name="com.terminalstack.helpu.fragments.TextWriterFragment"
+        android:label="fragment_text_writer"
+        tools:layout="@layout/fragment_text_writer" />
+    <fragment
+        android:id="@+id/wantToHelpFragment"
+        android:name="com.terminalstack.helpu.fragments.WantToHelpFragment"
+        android:label="fragment_want_to_help"
+        tools:layout="@layout/fragment_want_to_help" />
+    <fragment
+        android:id="@+id/fragment_add_help"
+        android:name="com.terminalstack.helpu.fragments.fragment_add_help"
+        android:label="fragment_add_help"
+        tools:layout="@layout/fragment_add_help" />
+    <fragment
+        android:id="@+id/crutchFragment"
+        android:name="com.terminalstack.helpu.fragments.CrutchFragment"
+        android:label="fragment_crutch"
+        tools:layout="@layout/fragment_crutch" />
+    <fragment
+        android:id="@+id/wheelchairFragment"
+        android:name="com.terminalstack.helpu.fragments.WheelchairFragment"
+        android:label="fragment_wheelchair"
+        tools:layout="@layout/fragment_wheelchair" />
+    <fragment
+        android:id="@+id/helperFragment"
+        android:name="com.terminalstack.helpu.fragments.HelperFragment"
+        android:label="fragment_helper"
+        tools:layout="@layout/fragment_helper" />
+    <fragment
+        android:id="@+id/restroFragment"
+        android:name="com.terminalstack.helpu.fragments.RestroFragment"
+        android:label="fragment_restro"
+        tools:layout="@layout/fragment_restro" />
+    <fragment
+        android:id="@+id/mallsFragment"
+        android:name="com.terminalstack.helpu.fragments.MallsFragment"
+        android:label="fragment_malls"
+        tools:layout="@layout/fragment_malls" />
+    <fragment
+        android:id="@+id/toiletsFragment"
+        android:name="com.terminalstack.helpu.fragments.ToiletsFragment"
+        android:label="fragment_toilets"
+        tools:layout="@layout/fragment_toilets" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.terminalstack.helpu.fragments.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" />
+    <fragment
+        android:id="@+id/hospitalsFragment"
+        android:name="com.terminalstack.helpu.fragments.HospitalsFragment"
+        android:label="fragment_hospitals"
+        tools:layout="@layout/fragment_hospitals" />
+    <fragment
+        android:id="@+id/banksFragment"
+        android:name="com.terminalstack.helpu.fragments.BanksFragment"
+        android:label="fragment_banks"
+        tools:layout="@layout/fragment_banks" />
+    <fragment
+        android:id="@+id/ministryOfDisabledWebViewFragment"
+        android:name="com.terminalstack.helpu.fragments.MinistryOfDisabledWebViewFragment"
+        android:label="fragment_ministry_of_disabled_web_view"
+        tools:layout="@layout/fragment_ministry_of_disabled_web_view" />
+    <fragment
+        android:id="@+id/fragment_maps"
+        android:name="com.terminalstack.helpu.fragment_maps"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

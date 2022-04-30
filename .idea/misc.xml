@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+<<<<<<< HEAD
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable-v24/side_nav_bar.xml" value="0.1745" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/actions.xml" value="0.202" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/active.xml" value="0.202" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/bluecard.xml" value="0.219" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/blueeey.xml" value="0.1535" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/cyancard.xml" value="0.1535" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/help.xml" value="0.1" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/ic_launcher_background.xml" value="0.123" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/library.xml" value="0.1625" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/pinkcard.xml" value="0.136" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/redcard.xml" value="0.1535" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/drawable/whitecard.xml" value="0.2365" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/activity_login.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/activity_main2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/activity_otp_verification.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/activity_register.xml" value="0.24375" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/activity_splash_screen.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/app_bar_main.xml" value="0.33178869323447635" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/content_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/first_activity.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_actions.xml" value="0.2" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_add_help.xml" value="0.1359375" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_banks.xml" value="0.21822916666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_crutch.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_entertainment.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_help_desk.xml" value="0.1359375" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_helper.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_home.xml" value="0.1994750656167979" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_hospitals.xml" value="0.264" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_library.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_logout.xml" value="0.15989583333333332" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_malls.xml" value="0.21822916666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_ministry_of_disabled_web_view.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_nearby.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_restro.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_text_writer.xml" value="0.2324127149557061" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_toilets.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/fragment_want_to_help.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/header.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/myhome_fragment.xml" value="0.264" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/nav_header_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/recitemview.xml" value="0.24375" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/layout/restraunts.xml" value="0.1" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/menu/menu.xml" value="0.23229166666666667" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.123" />
+        <entry key="..\:/Internship Work/HelpU/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+=======
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/drawable/actions.xml" value="0.124" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/drawable/navigation.xml" value="0.124" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/layout/content_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/layout/first_activity.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/layout/fragment_add_help.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/layout/fragment_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/arora/Downloads/TerminalStack/app/src/main/res/layout/nav_header_main.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+>>>>>>> origin/main
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
